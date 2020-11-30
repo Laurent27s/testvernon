@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenue</title>
+    <link rel="stylesheet" href="asset/css/style.css">
+</head>
+<header>
+    <div class="ImgHeader">
+        <img width="100%" src="asset/img/background.jpg">
+        <div class="Title">
+            <h1>Bienvenue à bord </h1>
+            <p class="Loc">Location de voiture 24h/24</p>
+        </div>
+        <form>
+            <div>
+                <label for="text"></label>
+                <input type="text" id="start" name="trip-start" placeholder="Adresse de Départ:">
+            </div>
+            <div>
+                <label for="start"></label>
+                <input type="date" value="2020-11-27" placeholder="Début de location">
+            </div>
+            <div>
+                <label for="start"></label>
+                <input type="date" value="2020-11-27" placeholder="Fin de location">
+            </div>
+            <div>
+                <button type="text">Valider ma recherche</button>
+            </div>
+        </form>
+</header>
+
+<body>
+    <div class="dropdown">
+        <h2>7 Résultats</h2>
+        <button class="btn btn-trs dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Prix croissant
+        </button>
+
+        <section id="Catalogue">
+            <div class="Cars">
+                <div class="Peugeot"></div>
+                <img width="40%" src="asset/img/vehicule1.png" alt="">
+                <div class="Details">
+                    <h4>Peugeot 208</h4>
+                    <p>Diesel, 5 portes, GPS, Autoradio, Forfait 1000km (0,5/km supplémentaire).</p>
+                    <p>999€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+              
+            </div>
+            <div class="Cars">
+                <div class="Ford"></div>
+                <img width="40%" src="asset/img/vehicule2.png" alt="">
+                <div class="Details">
+                    <h4>Ford Focus</h4>
+                    <p>Diesel, 5 portes, GPS, Autoradio, Forfait 1000km (0,5/km supplémentaire).</p>
+                    <p>999€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+            </div>
+            <div class="Cars">
+                <div class="Audi"></div>
+                <img width="40%" src="asset/img/vehicule3.png" alt="">
+                <div class="Details">
+                    <h4>Audi A1</h4>
+                    <p>Diesel, 5 portes, GPS, Autoradio, Forfait 1000km (0,5/km supplémentaire).</p>
+                    <p>1100€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+            </div>
+            <div class="Cars">
+                <div class="Opel"></div>
+                <img width="40%" src="asset/img/vehicule4.png" alt="">
+                <div class="Details">
+                    <h4>Opel Mokka</h4>
+                    <p>Diesel, 5 portes, GPS, Autoradio, Forfait 1000km (0,5/km supplémentaire).</p>
+                    <p>1150€ - Agence de Paris</p>
+                    <button type="button" class="btn btn-success">Réserver et Payer</button>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <img width="40%" src="asset/img/agence.jpg">
+            <div class="Contact">
+                <h5>Notre Agence de <strong>Paris</strong>
+                    300 boulevard de vaugirard, 75015, Paris
+                    Ouvert 7j/7 de 09h à 13h et de 14h à 20h
+                    01 49 78 21 33
+                    contact@vtc.com</h5>
+            </div>
+        </footer>
+</body>
+
+</html>
